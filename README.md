@@ -13,3 +13,4 @@
 ### Applications
 
 - [SaaS for Auto Feature Engineering and AutoML](./docs/project_specs/AutoFeature_SaaS.md)
+- [Document Scanning and Knowledge Graph Mobile App - React Native](./docs/project_specs/DocScan_React_Native.md)
