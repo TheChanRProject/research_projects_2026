@@ -194,6 +194,7 @@ The system follows an event-driven microservices architecture with three primary
 The system employs seven specialized agents, each with distinct responsibilities, tools, and output schemas.
 
 **Schema Agent** understands database structure and data characteristics. It accesses SQL query execution, schema introspection, and statistical sampling tools. It outputs column metadata including types, cardinality, null rates, and sample values; table relationships and foreign keys; and data quality assessments.
+  - [Potential Contribution - SQL of Thought](https://www.arxiv.org/pdf/2509.00581)
 
 **Domain Research Agent** gathers external knowledge about data semantics. It uses web search via Tavily, document retrieval, and knowledge base queries. It produces domain context for columns, standard value ranges and meanings, common transformations in the domain, and regulatory or compliance considerations.
 
