@@ -793,6 +793,7 @@ Appendix B: Prompt Templates (Conceptual)
 
 Appendix C: Example MongoDB Document
 
+```json
 {
   "_id": { "$oid": "..." },
   "user_id": { "$oid": "..." },
@@ -806,7 +807,7 @@ Appendix C: Example MongoDB Document
   "created_at": "2025-11-21T12:34:56Z",
   "updated_at": "2025-11-21T12:35:20Z"
 }
-
+```
 
 ⸻
 
